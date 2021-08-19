@@ -57,7 +57,7 @@ function generatePassword() {
     characters += special;
   }
 
-  // Generates random password from users string
+  // Generates random password from users strings
   let password = "";
   for (let i = 0; i < passwordLength; i++) {
     password += characters[Math.floor(Math.random() * characters.length)];
